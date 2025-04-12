@@ -1,17 +1,13 @@
 package com.app.hrPortal
 
-import android.content.Intent
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 
-class MainActivity : AppCompatActivity() {
+class DashboardActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        val navigateToDashboard = Intent(this, DashboardActivity::class.java)
-        startActivity(navigateToDashboard)
+        setContentView(R.layout.activity_dashboard)
     }
 }
