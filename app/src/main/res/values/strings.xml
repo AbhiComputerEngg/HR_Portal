@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">HR_Portal</string>
+    <string name="welcome_back_to">Welcome Back To</string>
+
+
+    <string-array name="designation_options">
+        <item>--Select--</item>
+        <item>Web Developer</item>
+        <item>Android Developer</item>
+        <item>Frontend Developer</item>
+        <item>DevOps</item>
+        <item>Full Stack Developer</item>
+    </string-array>
+
 </resources>

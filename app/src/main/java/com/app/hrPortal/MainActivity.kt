@@ -11,7 +11,10 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        val navigateToDashboard = Intent(this, DashboardActivity::class.java)
-        startActivity(navigateToDashboard)
+//        val navigateToLogin = Intent(this, LoginActivity::class.java)
+//        startActivity(navigateToLogin)
+
+        val navigateToSignup = Intent(this, SignupActivity::class.java)
+        startActivity(navigateToSignup)
     }
 }
